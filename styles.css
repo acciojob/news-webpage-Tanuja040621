@@ -14,8 +14,10 @@ body {
 header.header {
   background-color: #011e29;
   color: white;
-  text-align: center !important;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Container layout */
@@ -60,12 +62,9 @@ header.header {
 }
 
 .pictorial-news-section {
-  width: 250px;
-  background-color: white;
-  padding: 20px;
-  text-align: center !important;
-  border-radius: 15px;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
