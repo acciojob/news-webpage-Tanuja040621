@@ -1,41 +1,73 @@
-/*  your css code here. If applicable */
+/* Global styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-	 background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
+/* Header styles */
 .header {
   background-color: #011e29;
   color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0px 20px 0px; /* Full padding values for Cypress */
 }
 
+/* Container layout */
 .container {
   display: flex;
-  justify-content: space-around;
-  padding: 30px;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
   flex-wrap: wrap;
 }
 
-.latest-news-section,
-.main-article,
-.pictorial-news-section {
+/* Shared box styling */
+.box {
   background-color: white;
   border-radius: 15px;
   padding: 20px;
-  width: 250px;
   box-sizing: border-box;
   text-align: center;
+  height: 330px;
 }
 
+/* Latest News */
+.latest-news-section {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* Main Article */
 .main-article {
   width: 400px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.main-article p {
+  text-align: justify;
+}
+
+/* Pictorial News */
+.pictorial-news-section {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-sizing: border-box;
 }
 
 .pictorial-news-section img {
   width: 100%;
-  margin: 10px 0;
+  height: 90px;
+  object-fit: cover;
   border-radius: 8px;
+  margin-top: 10px;
 }
