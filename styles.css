@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Global styles */
 body {
   margin: 0;
@@ -5,12 +11,11 @@ body {
   background-color: #f5f5f5;
 }
 
-/* Header styles */
-.header {
+header.header {
   background-color: #011e29;
   color: white;
-  text-align: center;
-  padding: 20px 0px 20px 0px; /* Full padding values for Cypress */
+  text-align: center !important;
+  padding: 20px 0px 20px 0px;
 }
 
 /* Container layout */
@@ -54,15 +59,15 @@ body {
   text-align: justify;
 }
 
-/* Pictorial News */
 .pictorial-news-section {
   width: 250px;
   background-color: white;
   padding: 20px;
-  text-align: center;
+  text-align: center !important;
   border-radius: 15px;
   box-sizing: border-box;
 }
+
 
 .pictorial-news-section img {
   width: 100%;
