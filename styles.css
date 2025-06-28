@@ -16,11 +16,12 @@ body {
 /* Flex layout for the main container */
 .main-container {
   display: flex;
-  justify-content: space-between;
-  padding: 40px 5%;
-  gap: 20px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 5%;
 }
+
 
 /* Common card styles for all sections */
 .card {
@@ -28,6 +29,8 @@ body {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	  width: fit-content;
+  height: fit-content;
 }
 
 /* Latest News Styling */
